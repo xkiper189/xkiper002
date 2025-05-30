@@ -1,0 +1,35 @@
+baseURL: "https://xkiper189.github.io/xkiper002/"
+languageCode: "ru"
+title: "Блог Xkiper"
+theme: "PaperMod"
+
+params:
+  author: "Xkiper"
+  defaultTheme: "auto"
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowShareButtons: false
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  ShowToc: true
+  TocOpen: true
+
+  comments: true
+
+  giscus:
+    repo: "xkiper189/xkiper002"
+    repo_id: ""
+    category: ""
+    category_id: ""
+    mapping: "pathname"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    input_position: "bottom"
+    theme: "light"
+    lang: "ru"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
